@@ -23,8 +23,10 @@ input.addEventListener('keydown', onKeyDown)
 const divs = document.querySelectorAll('div')
 console.log(divs)
 
+divs[2].addEventListener
+
 function onDivClick(event) {
-  console.log(event)
+  console.log(this.firstChild.nodeValue.trim() + 'bubbled')
   
 }
 
