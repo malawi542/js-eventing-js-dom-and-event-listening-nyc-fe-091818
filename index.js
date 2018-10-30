@@ -11,7 +11,9 @@ function onClick() {
 main.addEventListener('click', onClick)
 
 function onKeyDown(event) {
-  
+  if(event.which === 74) {
+    event.preventDEfault()
+  }
 }
 const input = document.querySelector('input')
 
