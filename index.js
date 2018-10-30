@@ -26,6 +26,7 @@ console.log(divs)
 divs[2].addEventListener
 
 function onDivClick(event) {
+  event.stopPropagation()
   console.log(this.firstChild.nodeValue.trim() + 'bubbled')
   
 }
