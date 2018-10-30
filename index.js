@@ -9,3 +9,5 @@ function onClick() {
   alert('i was clicked')
 }
 main.addEventListener('click', onClick)
+
+const input = document.querySelector('input')
