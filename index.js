@@ -15,4 +15,4 @@ function onKeyDown(event) {
 }
 const input = document.querySelector('input')
 
-input.addEventListener('keydown')
+input.addEventListener('keydown', onKeyDown)
